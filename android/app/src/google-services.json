@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "979162516000",
+    "project_id": "equipment-request-app",
+    "storage_bucket": "equipment-request-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979162516000:android:8733de84ecd703c31c0a45",
+        "android_client_info": {
+          "package_name": "com.tubio.era.equipment_request_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUKI0a1Sc-7BeJgNOru2dz1cXwoL4lVr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
