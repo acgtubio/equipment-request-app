@@ -82,7 +82,6 @@ class EquipmentDetailView extends StatelessWidget {
                         )
                     );
                   }
-                  return Container();
                 },
               )
             ],

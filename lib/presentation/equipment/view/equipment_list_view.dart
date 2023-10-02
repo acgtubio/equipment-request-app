@@ -46,8 +46,7 @@ class EquipmentListView extends StatelessWidget {
                                 data.docs[index]['description'];
                                 equipment.specs = data.docs[index]['specs'];
                                 equipment.imageUrl = data.docs[index]['image_url'];
-                                return Expanded(
-                                  child: Padding(
+                                return  Padding(
                                     padding: const EdgeInsets.only(bottom: 8),
                                     child: ListTile(
                                       onTap: () {
@@ -68,11 +67,10 @@ class EquipmentListView extends StatelessWidget {
                                           Text(equipment.specs),
                                           Text(
                                             equipment.description,
-                                            maxLines: 3,),
+                                            maxLines: 3),
                                         ],
                                       ),
                                     ),
-                                  ),
                                 );
                               },
                             ),
